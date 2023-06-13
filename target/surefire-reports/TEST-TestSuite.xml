@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="47.126" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Selenium_workspace\CucumberWithTestNG\target\test-classes;C:\Selenium_workspace\CucumberWithTestNG\target\classes;C:\Users\Jayul\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Jayul\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Jayul\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\Jayul\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Jayul\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Jayul\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Jayul\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Jayul\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Jayul\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Jayul\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Jayul\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Jayul\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Jayul\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Jayul\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Jayul\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Jayul\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Jayul\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Jayul\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Jayul\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Jayul\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Users\Jayul\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Users\Jayul\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Users\Jayul\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Users\Jayul\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Jayul\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Users\Jayul\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Jayul\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Jayul\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Jayul\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\Jayul\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Users\Jayul\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Jayul\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Jayul\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\Jayul\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\Jayul\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Users\Jayul\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Users\Jayul\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Jayul\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Jayul\AppData\Local\Temp\surefire16373148624916373923\surefirebooter13733479583110285758.jar C:\Users\Jayul\AppData\Local\Temp\surefire16373148624916373923 2023-05-25T00-45-58_437-jvmRun1 surefire11160552241042605512tmp surefire_011627016723997315475tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Selenium_workspace\CucumberWithTestNG\target\test-classes;C:\Selenium_workspace\CucumberWithTestNG\target\classes;C:\Users\Jayul\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Jayul\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Jayul\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\Jayul\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\Jayul\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Jayul\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Jayul\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Jayul\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Jayul\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Jayul\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Jayul\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Jayul\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Jayul\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Jayul\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Jayul\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Jayul\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Jayul\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Jayul\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Jayul\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Jayul\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Jayul\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Jayul\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Users\Jayul\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Users\Jayul\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Users\Jayul\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Users\Jayul\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Jayul\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Users\Jayul\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Jayul\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Jayul\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Jayul\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\Jayul\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Users\Jayul\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Jayul\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Jayul\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\Jayul\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\Jayul\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Users\Jayul\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Users\Jayul\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Jayul\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Jayul"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Selenium_workspace\CucumberWithTestNG"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jayul\AppData\Local\Temp\surefire16373148624916373923\surefirebooter13733479583110285758.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="Jayul"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Jayul\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Jayul\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Selenium_workspace\CucumberWithTestNG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Rockwell\;C:\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\apache-maven-3.8.6\bin;C:\Users\Jayul\AppData\Local\Microsoft\WindowsApps;C:\Users\Jayul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="feature" classname="MyRunner.TestRunner" time="37.931">
+    <failure message="java.lang.AssertionError: expected [] but found [Guru99 Bank Home Page]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [] but found [Guru99 Bank Home Page]
+	at MyRunner.TestRunner.feature(TestRunner.java:33)
+Caused by: java.lang.AssertionError: expected [] but found [Guru99 Bank Home Page]
+</failure>
+    <system-out><![CDATA[#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+Feature: Guru99 Login Feature
+
+  Scenario Outline: Guru99 Login Test Scenario        &amp#27;[90m# login.feature:21&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36muser is already on Login Page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mtitle of Login Page is Guru99 Bank Home Page&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser enters "<username>" and "<password>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser clicks on Login button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser is on Home Page&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m
+
+    Examples: 
+Guru99 Bank Home Page
+Home Page Title::
+
+  Scenario Outline: Guru99 Login Test Scenario        &amp#27;[90m# login.feature:33&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is already on Login Page&amp#27;[0m               &amp#27;[90m# LogInPageStepDefinition.user_is_already_on_Login_Page()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtitle of Login Page is Guru99 Bank Home Page&amp#27;[0m &amp#27;[90m# LogInPageStepDefinition.title_of_Login_Page_is_Guru99_Bank_Home_Page()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser enters "&amp#27;[0m&amp#27;[32m&amp#27;[1mmngr503151&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mYmazusu&amp#27;[0m&amp#27;[32m"&amp#27;[0m       &amp#27;[90m# LogInPageStepDefinition.user_enters_username_and_password(String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m                  &amp#27;[90m# LogInPageStepDefinition.user_clicks_on_Login_button()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is on Home Page&amp#27;[0m                         &amp#27;[90m# LogInPageStepDefinition.user_is_on_Home_Page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [] but found [Guru99 Bank Home Page]
+      	at org.testng.Assert.fail(Assert.java:96)
+      	at org.testng.Assert.failNotEquals(Assert.java:776)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+      	at org.testng.Assert.assertEquals(Assert.java:118)
+      	at org.testng.Assert.assertEquals(Assert.java:453)
+      	at org.testng.Assert.assertEquals(Assert.java:463)
+      	at stepDefinitions.LogInPageStepDefinition.user_is_on_Home_Page(LogInPageStepDefinition.java:61)
+      	at ?.Then user is on Home Page(login.feature:27)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                            &amp#27;[90m# LogInPageStepDefinition.close_the_browser()&amp#27;[0m
+Guru99 Bank Home Page
+Home Page Title::
+
+  Scenario Outline: Guru99 Login Test Scenario        &amp#27;[90m# login.feature:34&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is already on Login Page&amp#27;[0m               &amp#27;[90m# LogInPageStepDefinition.user_is_already_on_Login_Page()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mtitle of Login Page is Guru99 Bank Home Page&amp#27;[0m &amp#27;[90m# LogInPageStepDefinition.title_of_Login_Page_is_Guru99_Bank_Home_Page()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser enters "&amp#27;[0m&amp#27;[32m&amp#27;[1mvhgfhhb&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mfjdsfshh&amp#27;[0m&amp#27;[32m"&amp#27;[0m         &amp#27;[90m# LogInPageStepDefinition.user_enters_username_and_password(String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks on Login button&amp#27;[0m                  &amp#27;[90m# LogInPageStepDefinition.user_clicks_on_Login_button()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is on Home Page&amp#27;[0m                         &amp#27;[90m# LogInPageStepDefinition.user_is_on_Home_Page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [] but found [Guru99 Bank Home Page]
+      	at org.testng.Assert.fail(Assert.java:96)
+      	at org.testng.Assert.failNotEquals(Assert.java:776)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+      	at org.testng.Assert.assertEquals(Assert.java:118)
+      	at org.testng.Assert.assertEquals(Assert.java:453)
+      	at org.testng.Assert.assertEquals(Assert.java:463)
+      	at stepDefinitions.LogInPageStepDefinition.user_is_on_Home_Page(LogInPageStepDefinition.java:61)
+      	at ?.Then user is on Home Page(login.feature:27)
+      &amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mClose the browser&amp#27;[0m                            &amp#27;[90m# LogInPageStepDefinition.close_the_browser()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1684989960402	geckodriver	INFO	Listening on 127.0.0.1:26893
+1684989960943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Jayul\\AppData\\Local\\Temp\\rust_mozprofile16snwL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684989962116	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684989962134	Marionette	INFO	Listening on port 49631
+Read port: 49631
+1684989962748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+May 25, 2023 12:46:05 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+JavaScript error: , line 0: uncaught exception: undefined
+1684989973585	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684989974472	geckodriver	INFO	Listening on 127.0.0.1:21916
+1684989975104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Jayul\\AppData\\Local\\Temp\\rust_mozprofileQiGQ6H"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684989978057	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684989978069	Marionette	INFO	Listening on port 49725
+Read port: 49725
+JavaScript warning: https://pagead2.googlesyndication.com/bg/_V7JEwjyKa7lL6_ZBczMp1aEsJ9qFSV12I84yuCmKHE.js line 2 > eval line 661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1684989978697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+May 25, 2023 12:46:27 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 502))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/b4kQu0tD4hSA-hVARc1fzzODE0daF2Vy-bPLW9uau78.js line 2 > eval line 7512 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+]]></system-err>
+  </testcase>
+</testsuite>
